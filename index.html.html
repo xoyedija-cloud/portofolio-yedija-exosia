@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yedija Exosia - Digital Business Analyst Portfolio</title>
+    <style>
+        :root {
+            --primary: #0f172a;
+            --secondary: #3b82f6;
+            --bg-light: #f8fafc;
+            --text-dark: #1e293b;
+            --text-muted: #64748b;
+        }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: -0.5px;
+        }
+        header p.title {
+            font-size: 1.25rem;
+            color: #94a3b8;
+            margin-top: 0.5rem;
+            font-weight: 500;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .summary {
+            text-align: center;
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto 3rem auto;
+            color: var(--text-muted);
+        }
+        .section-title {
+            border-bottom: 2px solid var(--secondary);
+            display: inline-block;
+            padding-bottom: 0.5rem;
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border-top: 4px solid var(--secondary);
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        .card h3 {
+            margin-top: 0;
+            font-size: 1.25rem;
+            color: var(--primary);
+        }
+        .card p.role {
+            font-size: 0.9rem;
+            color: var(--secondary);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 1rem;
+        }
+        .card ul {
+            padding-left: 1.2rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+        .card ul li {
+            margin-bottom: 0.5rem;
+        }
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            justify-content: center;
+        }
+        .tech-pill {
+            background-color: #e2e8f0;
+            color: var(--primary);
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: var(--primary);
+            color: #94a3b8;
+            margin-top: 4rem;
+        }
+        @media (max-width: 600px) {
+            .portfolio-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Yedija Exosia Nurradya Beta</h1>
+        <p class="title">Digital Business Analyst | AI Automation & Strategy Consultant</p>
+    </header>
+
+    <div class="container">
+        <div class="summary">
+            <p>Profesional analitik bisnis dengan rekam jejak dalam merancang transformasi digital, merekayasa otomasi alur kerja (workflow automation), serta memodelkan valuasi dan strategi operasional startup. Menggabungkan pendekatan strategis eksekutif dengan eksekusi teknis tingkat lanjut untuk menyelesaikan bottleneck operasional pada skala UMKM hingga ekosistem startup.</p>
+        </div>
+
+        <div style="text-align: center;">
+            <h2 class="section-title">Core Competencies & Toolkit</h2>
+        </div>
+        <div class="tech-stack">
+            <span class="tech-pill">Business Process Modeling</span>
+            <span class="tech-pill">n8n Workflow Automation</span>
+            <span class="tech-pill">AI Integration (Google Gemini)</span>
+            <span class="tech-pill">Financial & Valuation Modeling</span>
+            <span class="tech-pill">Supply Chain Optimization</span>
+            <span class="tech-pill">Go-To-Market Strategy</span>
+        </div>
+
+        <h2 class="section-title">Featured Projects</h2>
+        
+        <div class="portfolio-grid">
+            
+            <!-- Proyek 1: Dunia Kerja -->
+            <div class="card">
+                <h3>Dunia Kerja (HRTech Startup)</h3>
+                <p class="role">President & CEO / Co-Founder</p>
+                <ul>
+                    <li>Mendirikan dan merancang arsitektur bisnis platform HRTech (MVP) untuk memecahkan inefisiensi rekrutmen pada ekosistem 65,5 juta UMKM Indonesia.</li>
+                    <li>Menyusun dokumen Term Sheet investasi Seed-Round dan memodelkan proyeksi finansial dengan target valuasi pra-uang (pre-money) mencapai Rp 4 Miliar.</li>
+                    <li>Merancang strategi monetisasi Freemium dan tata kelola risiko bisnis komprehensif untuk penetrasi pasar tier-1 dan tier-2.</li>
+                </ul>
+            </div>
+
+            <!-- Proyek 2: Dol Dimsum -->
+            <div class="card">
+                <h3>AI & Workflow Automation (Dol Dimsum)</h3>
+                <p class="role">AI & Automation Business Analyst</p>
+                <ul>
+                    <li>Merekayasa migrasi sistem operasional manajemen pesanan manual (10 tahapan) menjadi sistem otonom terpusat (4 langkah) menggunakan workflow engine n8n.</li>
+                    <li>Mengintegrasikan agen Google Gemini AI dengan Telegram API untuk memproses pesanan natural language dan validasi pemotongan stok real-time ke database.</li>
+                    <li>Memangkas waktu respons konfirmasi pesanan pelanggan menjadi di bawah 5 detik dan mereduksi beban operasional admin hingga 60%.</li>
+                </ul>
+            </div>
+
+            <!-- Proyek 3: Toko Damai -->
+            <div class="card">
+                <h3>AI-Based Smart Retail Transformation</h3>
+                <p class="role">Digital Business Analyst</p>
+                <ul>
+                    <li>Merancang arsitektur AI-Based Smart Inventory Management System untuk memecahkan inefisiensi rantai pasok ritel tradisional.</li>
+                    <li>Mengaplikasikan metode Time Series Forecasting untuk memprediksi lonjakan permintaan komoditas fast-moving dan rekomendasi safety stock otomatis.</li>
+                    <li>Mengimplementasikan Market Basket Analysis (Association Rule Learning) untuk menyusun strategi promosi bundling guna meningkatkan rata-rata nilai transaksi.</li>
+                </ul>
+            </div>
+
+            <!-- Proyek 4: Gula Garam -->
+            <div class="card">
+                <h3>Supply Chain & Operational Transformation</h3>
+                <p class="role">Operations & Supply Chain Analyst</p>
+                <ul>
+                    <li>Melakukan audit operasional komprehensif pada F&B multi-brand dengan tata letak vertikal untuk memetakan alur kerja AS-IS dan bottleneck efisiensi.</li>
+                    <li>Merancang proses TO-BE melalui integrasi Cloud Inventory Management, Digital POS, dan Kitchen Order System guna menekan kesalahan pencatatan.</li>
+                    <li>Mendesain struktur dashboard operasional manajemen untuk visibilitas stok real-time, meminimalkan food waste, dan mendukung pengambilan keputusan.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Yedija Exosia Nurradya Beta. All Rights Reserved.</p>
+        <p>Email: duniakerjaprimary@gmail.com | LinkedIn: /in/yedija-exosia</p>
+    </footer>
+
+</body>
+</html>
